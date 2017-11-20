@@ -1,0 +1,26 @@
+---
+title: "Code Stats"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>", 
+  quiet = TRUE)
+```
+
+Get your R code statistics!
+
+## Example
+
+```{r}
+source("codestats/R_stat.R")
+```
+
+```{r}
+# try on itself
+get_stat_r("codestats/R_stat.R")
+```
+
+
